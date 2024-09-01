@@ -1,0 +1,26 @@
+.one{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.two{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.image img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50px;
+    transition: all 0.5s linear 0.4s;
+
+}
+.image img:hover{
+    width: 500px;
+    height: 500px;
+
+}
+.image:hover img:not(:hover){
+    transform: translateY(-40px);
+    opacity: 0.1;
+}
